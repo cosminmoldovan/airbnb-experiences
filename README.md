@@ -7,4 +7,4 @@ Requirements:
 - array .map()
 - Styling with Classes
 
-<img src="src/images/project-thumbnail.png"/>
+<img src="src/images/project-thumbnail.png" width="80%"/>
