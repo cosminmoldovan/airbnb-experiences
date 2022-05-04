@@ -50,7 +50,6 @@ section{
 .hero-text{
   font-weight: 300;
   color: #222222;
-  /* max-width:40ch; */
 }
 .cards-list{
   padding: 0 0 8px 0;
@@ -65,11 +64,6 @@ section{
   border: 1px solid #d2d2d7;
   border-radius: 6px;
 }
-
-.cards-list::-webkit-scrollbar-track {
-  /* -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0); */
-}
-
 .cards-list::-webkit-scrollbar-thumb {
   height: 6px;
   background-color: #d2d2d7;
@@ -83,16 +77,10 @@ section{
 .cards-list::-webkit-scrollbar:vertical {
   display: none;
 }
-
-/* .cards-list{
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-} */
 .card{
   width: 180px;
   display: flex;
   flex-direction: column;
-  /* gap:8px; */
   color: #222222;
   font-size: 12px;
   font-weight: 300;
