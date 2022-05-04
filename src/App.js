@@ -2,22 +2,25 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero  from './components/Hero';
 import Card from './components/Card';
-import img1 from './images/card-img1.png'
+import data from './data'
 
 function App() {
+  const cards = data.map(card=>{
+    return ( <Card
+      img={`./card-images/${card.coverImg}`}
+      rating={card.stats.rating}
+      reviewCount={card.stats.reviewCount}
+      location={card.location}
+      title={card.title}
+      price={card.price}
+     />);
+  });
   return (
     <div className="App">
       <Navbar />
       <Hero />
       <section>
-        <Card
-          img={img1}
-          rating="5.0"
-          reviewCount={6}
-          location="USA"
-          title="Life Lessons with Katie Zaferes"
-          price={136}
-         />
+       {cards}
       </section>
       
     </div>

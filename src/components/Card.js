@@ -1,4 +1,3 @@
-import img from '../images/card-img1.png'
 import starImg from '../images/star.png'
 
 
