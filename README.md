@@ -5,6 +5,7 @@ Requirements:
 - Reusable Components
 - React Props
 - array .map()
+- Conditional Rendering
 - Styling with Classes
 
 <img src="src/images/project-thumbnail.png" width="70%"/>
