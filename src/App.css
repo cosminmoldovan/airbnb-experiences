@@ -78,6 +78,7 @@ section{
   display: none;
 }
 .card{
+  position: relative;
   width: 180px;
   display: flex;
   flex-direction: column;
@@ -85,6 +86,16 @@ section{
   font-size: 12px;
   font-weight: 300;
 }
+.card-badge{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
 .card-img{
   min-width: 176;
   border-radius: 10px;
